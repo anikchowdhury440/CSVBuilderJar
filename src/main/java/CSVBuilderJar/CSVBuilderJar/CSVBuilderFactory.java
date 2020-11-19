@@ -6,4 +6,7 @@ public class CSVBuilderFactory {
 		return new OpenCSVBuilder();
 	}
 
+	public static ICSVBuilder createCommonCSVBuilder() {
+		return new CommonCSVBuilder();
+	}
 }
